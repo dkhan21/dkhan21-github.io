@@ -1,0 +1,372 @@
+/* styles.css */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#dots {
+    position: relative;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 3000px;
+}
+
+
+  
+  
+
+.NavBar {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    padding-top: 30px;
+    /* Add the unit (e.g., pixels) */
+}
+
+
+#navButton {
+    font-family: 'Lato', sans-serif;
+    z-index: 1;
+    font-size: 20px;
+    transform: translate(0%, 0%);
+    text-align: center;
+    margin-right: 50px;
+    background-color: black;
+    border-radius: 5px;
+    border-color: black;
+    color: white;
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    /* Smooth transition */
+}
+#navButton::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.2s ease-out; /* Smooth transition */
+}
+
+#navButton:hover::before {
+    width: 100%; /* Expand the underline to 100% width */
+}
+
+
+
+#intro {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    width: 700px;
+    font-family: 'Lato', sans-serif;
+}
+
+#introName {
+    font-size: 60px;
+    text-align: center;
+}
+
+#introName2 {
+    font-size: 60px;
+    text-align: center;
+    color: aqua;
+    text-decoration: wavy;
+}
+
+#introName3 {
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+    text-decoration: wavy;
+}
+
+#about {
+    position: relative;
+    margin-top: 75px;
+    margin-left: 150px;
+    background-color: black;
+    border-radius: 15px;
+    height: 160px;
+    color: white;
+    width: 1200px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#sectionTitle {
+    font-size: 24px;
+    color: white;
+    text-decoration: wavy;
+    margin-left: 15px;
+    padding-top: 15px;
+
+}
+
+#sectionText {
+    font-size: 17px;
+    color: white;
+    text-decoration: wavy;
+    margin-left: 15px;
+    line-height: 1.7;
+
+}
+
+#experience {
+    margin-top: 75px;
+    margin-left: 150px;
+    position: relative;
+    background-color: black;
+    width: 1200px;
+    height: 320px;
+    border-radius: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+#education {
+    margin-top: 75px;
+    margin-left: 150px;
+    position: relative;
+    background-color: black;
+    width: 1200px;
+    height: 320px;
+    border-radius: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+#eduCollege{
+    margin-left: 232px;
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+
+#date {
+    margin-left: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    color: white;
+}
+
+
+
+#expTitle {
+    margin-left: 30px;
+    color: whitesmoke;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+#eduTitle {
+    margin-left: 30px;
+    color: whitesmoke;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+#expDetailsBox {
+    width: 900px;
+    height: 130px;
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: aliceblue;
+    line-height: 25px;
+}
+
+#flexRowskillExp{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+#flexRowskillset{
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    margin-left: 30px;
+}
+
+
+#flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+#flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects {
+    position: relative;
+    margin-top: 75px;
+    margin-left: 150px;
+    background-color: black;
+    border-radius: 15px;
+    height: 500px;
+    width: 1200px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#p1 {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: #0f0f0a;
+    border-radius: 3px;
+    height: 200px;
+    width: 580px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#p1:hover {
+    background-color: #1a1a15;
+    /* Change background color on hover */
+    color: #fff;
+    /* Change text color on hover */
+    text-decoration: wavy;
+}
+
+#p2 {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: #0f0f0a;
+    border-radius: 3px;
+    height: 200px;
+    width: 580px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#p2:hover {
+    background-color: #1a1a15;
+    /* Change background color on hover */
+    color: #fff;
+    /* Change text color on hover */
+    text-decoration: wavy;
+}
+
+#p3 {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: #0f0f0a;
+    border-radius: 3px;
+    height: 200px;
+    width: 580px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#p3:hover {
+    background-color: #1a1a15;
+    /* Change background color on hover */
+    color: #fff;
+    /* Change text color on hover */
+    text-decoration: wavy;
+}
+
+#p4 {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: #0f0f0a;
+    border-radius: 3px;
+    height: 200px;
+    width: 580px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#p4:hover {
+    background-color: #1a1a15;
+    /* Change background color on hover */
+    color: #fff;
+    /* Change text color on hover */
+    text-decoration: wavy;
+}
+
+#p1name {
+    color: whitesmoke;
+}
+
+#p1skills {
+    color: white;
+    margin-right: 10px;
+    font-size: 17px;
+    padding: 5px; /* Add padding for better spacing */
+    border: 2px solid green; /* Add a solid border */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add margin between items */
+
+}
+
+#flexRowskillProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills{
+    width: 1200px;
+    height: 200px;
+    background-color: black;
+    margin-left: 150px;
+    margin-top: 75px;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+
+#personal{
+    margin-top: 75px;
+    margin-left: 150px;
+    position: relative;
+    background-color: black;
+    width: 1200px;
+    height: 375px;
+    border-radius: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
