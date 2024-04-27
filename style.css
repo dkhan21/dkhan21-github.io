@@ -105,8 +105,7 @@ html {
 
 #about {
     position: relative;
-    margin-top: 75px;
-    margin-left: 150px;
+    margin: 75px auto 0;
     background-color: black;
     border-radius: 15px;
     height: 160px;
@@ -135,8 +134,7 @@ html {
 }
 
 #experience {
-    margin-top: 75px;
-    margin-left: 150px;
+    margin: 75px auto 0;
     position: relative;
     background-color: black;
     width: 1200px;
@@ -146,8 +144,7 @@ html {
 }
 
 #education {
-    margin-top: 75px;
-    margin-left: 150px;
+    margin: 75px auto 0;
     position: relative;
     background-color: black;
     width: 1200px;
@@ -226,8 +223,7 @@ html {
 
 #projects {
     position: relative;
-    margin-top: 75px;
-    margin-left: 150px;
+    margin: 75px auto 0;
     background-color: black;
     border-radius: 15px;
     height: 500px;
@@ -350,8 +346,7 @@ html {
     width: 1200px;
     height: 200px;
     background-color: black;
-    margin-left: 150px;
-    margin-top: 75px;
+    margin: 75px auto 0;
     border-radius: 10px;
     font-family: 'Lato', sans-serif;
 
@@ -360,8 +355,7 @@ html {
 
 
 #personal{
-    margin-top: 75px;
-    margin-left: 150px;
+    margin: 75px auto 0; /* This centers the box horizontally */
     position: relative;
     background-color: black;
     width: 1200px;
