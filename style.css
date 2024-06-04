@@ -76,6 +76,7 @@ html {
     margin-top: 100px;
     margin-left: 415px;
     text-align: center;
+    align-items: baseline;
     background-color: black;
     border-radius: 20px;
     padding: 20px;
